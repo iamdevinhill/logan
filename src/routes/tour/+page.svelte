@@ -1,5 +1,5 @@
 <svelte:head>
-	<title>Tour - Nicky Saturn</title>
+	<title>Tour - LOGAN</title>
 	<meta name="description" content="Check out upcoming tour dates and get tickets" />
 </svelte:head>
 
@@ -75,7 +75,7 @@
 	}
 
 	.ticket-button:hover {
-		background-color: #1a7ba1;
+		background-color: var(--color-theme-2);
 		color: white;
 	}
 

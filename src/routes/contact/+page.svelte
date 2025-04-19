@@ -154,8 +154,8 @@
   </script>
   
   <svelte:head>
-	<title>Contact - Nicky Saturn</title>
-	<meta name="description" content="Get in touch with Nicky Saturn for bookings, collaborations, or join the mailing list for updates." />
+	<title>Contact - LOGAN</title>
+	<meta name="description" content="Get in touch with LOGAN for bookings, collaborations, or join the mailing list for updates." />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </svelte:head>
   
@@ -167,7 +167,7 @@
 			<h2>Get in Touch</h2>
 			<p>For booking inquiries and other business opportunities:</p>
 			<a 
-			  href="mailto:nickysaturnmusic@gmail.com?body=Hello%20Nicky%20Saturn%2C%0A%0AI%20am%20contacting%20you%20to%20talk%20about%20%5Byour%20message%5D.%0A%0AThanks!%0A%0ABest%2C%0A%5BYour%20Name%5D" 
+			  href="mailto:logansongofficial@gmail.com?body=Hello%20LOGAN%2C%0A%0AI%20am%20contacting%20you%20to%20talk%20about%20%5Byour%20message%5D.%0A%0AThanks!%0A%0ABest%2C%0A%5BYour%20Name%5D" 
 			  class="email-button"
 			>
 			  <span class="icon">✉️</span> Email Now
@@ -309,7 +309,7 @@
     }
   
 	.email-button:hover {
-		background-color: #1a7ba1;
+		background-color: var(--color-theme-2);
 		color: white;
 	}
   
@@ -374,7 +374,7 @@
 	}
   
 	.form-button:hover:not(:disabled) {
-		background-color: #1a7ba1;
+		background-color: var(--color-theme-2);
 		color: white;
 	}
   

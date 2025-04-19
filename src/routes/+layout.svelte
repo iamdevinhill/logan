@@ -17,24 +17,13 @@
 	<footer>
 		<div class="footer-content">
 			<div class="social-icons">
-				<a href="https://open.spotify.com/artist/4qqgNsnTVsVq4o386eRAja?si=woe_BQw8SLqxhhtPymTAOw" target="_blank" rel="noopener">
-					<i class="fab fa-spotify"></i>
-				</a>
-				
-				<a href="https://music.apple.com/us/artist/nicky-saturn/1573096259" target="_blank" rel="noopener">
-					<i class="fab fa-apple"></i>
-				</a>
-				<a href="https://www.youtube.com/@nickysaturnmusic" target="_blank" rel="noopener">
-					<i class="fab fa-youtube"></i>
-				</a>
-				<a href="https://www.tiktok.com/@nickysaturnmusic?lang=en" target="_blank" rel="noopener">
-					<i class="fab fa-tiktok"></i>
-				</a>
-				<a href="https://instagram.com/nickysaturn" target="_blank" rel="noopener">
-					<i class="fab fa-instagram"></i>
-				</a>
-			</div>
-			<p>&copy; {new Date().getFullYear()} Nicky Saturn. All rights reserved.</p>
+				<a href="https://open.spotify.com/artist/6cC51nqcNy2Qhth9AguhIF?si=cvpQ7HPOSriISxQQ_ySq6w" aria-label="Spotify"><i class="fab fa-spotify"></i></a>
+				<a href="https://music.apple.com/us/artist/logan/1737493715" aria-label="Apple Music"><i class="fab fa-apple"></i></a>
+				<a href="https://www.youtube.com/channel/UCqP_T_jF7st7wQf6IkdR-Xw" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+				<a href="https://www.tiktok.com/@logansongsofficial" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+				<a href="https://www.instagram.com/logansongsofficial/" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+			  </div>
+			<p>&copy; {new Date().getFullYear()} LOGAN. All rights reserved.</p>
 		</div>
 	</footer>
 </div>

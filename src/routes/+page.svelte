@@ -4,12 +4,11 @@
     import { fade } from 'svelte/transition';
     
     // Import images with proper error handling
-    import artistImage1 from '$lib/images/time.jpg';
-    import artistImage2 from '$lib/images/soak.jpg';
-    import artistImage3 from '$lib/images/meant.jpg';
-    import artistImage4 from '$lib/images/divine.jpg';
+    import artistImage1 from '$lib/images/logan1.jpg';
+    import artistImage2 from '$lib/images/logan2.jpg';
+    import artistImage3 from '$lib/images/logan3.jpg';
   
-    const images = [artistImage1, artistImage2, artistImage3, artistImage4];
+    const images = [artistImage1, artistImage2, artistImage3];
   
     let currentImageIndex = 0;
     let opacity = 1;
@@ -208,18 +207,18 @@
   </script>
   
   <svelte:head>
-    <title>Nicky Saturn - Official Website</title>
-    <meta name="description" content="Official website of Nicky Saturn" />
+    <title>LOGAN - Official Website</title>
+    <meta name="description" content="Official website of LOGAN" />
   </svelte:head>
   
-  <section class="hero" aria-label="Nicky Saturn featured images">
+  <section class="hero" aria-label="LOGAN featured images">
     <div
       class="background"
       style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url({images[currentImageIndex]}); opacity: {opacity}"
       aria-hidden="true"
     ></div>
     <div class="hero-content">
-      <h1>Nicky Saturn</h1>
+      <h1>LOGAN</h1>
       <p class="tagline">New Single Out Now</p>
       <a href="/music" class="cta-button">Listen Here</a>
     </div>
@@ -231,7 +230,7 @@
         <button class="close-button" on:click={closePopup} aria-label="Close popup">×</button>
         <div class="popup-content">
           <h2 class="popup-title" id="popup-title">
-            Sign up for Nicky Saturn's mailing list for updates on new music, shows, and more.
+            Sign up for LOGAN's mailing list for updates on new music, shows, and more.
           </h2>
   
           {#if !submitted}
@@ -350,7 +349,7 @@
       text-decoration: none;
     }
     .cta-button:hover {
-      background-color: #1a7ba1;
+      background-color: var(--color-theme-2);
     }
     .cta-button:focus {
       outline: 3px solid rgba(26, 123, 161, 0.5);
@@ -478,7 +477,7 @@
       transition: background-color 0.2s ease-in-out;
     }
     .form-button:hover:not(:disabled) {
-      background-color: #1a7ba1;
+      background-color: var(--color-theme-2);
     }
     .form-button:disabled {
       opacity: 0.7;

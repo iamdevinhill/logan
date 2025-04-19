@@ -1,6 +1,6 @@
 <svelte:head>
-	<title>Videos - Nicky Saturn</title>
-	<meta name="description" content="Watch the latest music videos from Nicky Saturn" />
+	<title>Videos - LOGAN</title>
+	<meta name="description" content="Watch the latest music videos from LOGAN" />
 </svelte:head>
 
 <div class="container">
@@ -10,56 +10,44 @@
 		<div class="video">
 			<div class="video-container">
 				<iframe
-					src="https://www.youtube.com/embed/f4f7-BW2ByA?si=436XSgH_KhGCZa2S" 
-					title="Time Is Now"
+					src="https://www.youtube.com/embed/8en8Ux09-_c?si=drJ5Vaug2kIliKT_" 
+					title="Starving"
 					frameborder="0"
 					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 					allowfullscreen
 				></iframe>
 			</div>
-			<h3>"Time Is Now"</h3>
+			<h3>"Starving"</h3>
 		</div>
 		<br>
 
 		<div class="video">
 			<div class="video-container">
 				<iframe
-				src="https://www.youtube.com/embed/VL-10FD5gvE?si=0QeF75L1N0cGBrIM" 
-					title="Divine"
+				src="https://www.youtube.com/embed/zGnqcnRR2lg?si=kOoFD1M_8y0v2pp0" 
+					title="Back Burner"
 					frameborder="0"
 					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 					allowfullscreen
 				></iframe>
 			</div>
-			<h3>"Divine"</h3>
+			<h3>"Back Burner"</h3>
 		</div>
 		<br>
 
 		<div class="video">
 			<div class="video-container">
 				<iframe
-				src="https://www.youtube.com/embed/F7a8K_MeFF4?si=fx2jL0xwdnHwyfn0" 
-					title="Fantastik"
+				src="https://www.youtube.com/embed/JEHOSsEFgiE?si=_T8VjC_HP9oHnWTR" 
+					title="It's been a minute"
 					frameborder="0"
 					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 					allowfullscreen
 				></iframe>
 			</div>
-			<h3>"Fantastik"</h3>
+			<h3>"It's been a minute"</h3>
 		</div>
 		<br>
-		<div class="video">
-			<div class="video-container">
-				<iframe
-				src="https://www.youtube.com/embed/DFApLB2HHFQ?si=q7mruL2L5XY1aNk7" 
-					title="Soak Up The Sun (Cover)"
-					frameborder="0"
-					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-					allowfullscreen
-				></iframe>
-			</div>
-			<h3>"Soak Up The Sun (Cover)"</h3>
-		</div>
 	</div>
 </div>
 

@@ -14,7 +14,7 @@ async function POST({ request }) {
     if (Number.isNaN(parsedPhone)) {
       return json({ error: "Invalid phone number." }, { status: 400 });
     }
-    const { data, error } = await supabase.from("nicky_saturn_mailing_list").insert({ full_name, email_address, phone_number: parsedPhone }).select();
+    const { data, error } = await supabase.from("logan_mailing_list").insert({ full_name, email_address, phone_number: parsedPhone }).select();
     console.log("Supabase INSERT response:", { error, data });
     if (error) {
       return json({ error: error.message || "Insert failed." }, { status: 500 });

@@ -1,6 +1,6 @@
 <svelte:head>
-	<title>Music - Nicky Saturn</title>
-	<meta name="description" content="Listen to the latest music from Nicky Saturn" />
+	<title>Music - LOGAN</title>
+	<meta name="description" content="Listen to the latest music from LOGAN" />
 </svelte:head>
 
 <div class="container">
@@ -9,15 +9,13 @@
 	<div class="albums">
 		<div class="album">
 			<!-- Spotify Embed -->
-			<iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/4qqgNsnTVsVq4o386eRAja?utm_source=generator&theme=0" width="100%" height="450" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-			
-			<a href="https://spotify.com" target="_blank" rel="noopener noreferrer" class="stream-button">
+			<iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/6cC51nqcNy2Qhth9AguhIF?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>			<a href="https://spotify.com" target="_blank" rel="noopener noreferrer" class="stream-button">
 				Stream on Spotify
 			</a>
 		</div>
 		<div class="album">
 			<!-- Apple Music Embed (Direct iframe) -->
-			<iframe src="https://embed.music.apple.com/us/artist/nicky-saturn/1573096259" width="100%" height="450" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="" loading="lazy"></iframe>
+			<iframe src="https://embed.music.apple.com/us/artist/logan/1737493715" width="100%" height="450" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="" loading="lazy"></iframe>
 		
 			<a href="https://music.apple.com/us/artist/nicky-saturn/1573096259" target="_blank" rel="noopener noreferrer" class="stream-button">
 				Stream on Apple Music
@@ -58,7 +56,7 @@
 }
 
 .stream-button:hover {
-  background-color: #1a7ba1;
+  background-color: var(--color-theme-2);
   color: white;
 }
 
