@@ -126,9 +126,9 @@
     "file": "_app/immutable/assets/soak.Dh7UdlRC.jpg",
     "src": "src/lib/images/soak.jpg"
   },
-  "src/lib/images/time.jpg": {
+  "src/lib/images/logan3.jpg": {
     "file": "_app/immutable/assets/time.DGerwdja.jpg",
-    "src": "src/lib/images/time.jpg"
+    "src": "src/lib/images/logan3.jpg"
   },
   "src/routes/+layout.svelte": {
     "file": "entries/pages/_layout.svelte.js",

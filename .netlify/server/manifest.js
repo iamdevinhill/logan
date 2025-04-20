@@ -7,7 +7,7 @@ function __memo(fn) {
 return {
 	appDir: "_app",
 	appPath: "_app",
-	assets: new Set(["favicon.png","n.png","robots.txt","time.jpg"]),
+	assets: new Set(["favicol.png","l.png","robots.txt","logan3.jpg"]),
 	mimeTypes: {".png":"image/png",".txt":"text/plain",".jpg":"image/jpeg"},
 	_: {
 		client: {"start":"_app/immutable/entry/start.JyiAH0pz.js","app":"_app/immutable/entry/app.drykj4vT.js","imports":["_app/immutable/entry/start.JyiAH0pz.js","_app/immutable/chunks/entry.B2M9FD8j.js","_app/immutable/chunks/scheduler.BabQTIuJ.js","_app/immutable/entry/app.drykj4vT.js","_app/immutable/chunks/preload-helper.C1FmrZbK.js","_app/immutable/chunks/scheduler.BabQTIuJ.js","_app/immutable/chunks/index.BHUZScgJ.js"],"stylesheets":[],"fonts":[],"uses_env_dynamic_public":false},
