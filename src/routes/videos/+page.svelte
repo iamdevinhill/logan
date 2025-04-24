@@ -10,7 +10,7 @@
 		<div class="video">
 			<div class="video-container">
 				<iframe
-					src="https://www.youtube.com/embed/8en8Ux09-_c?si=drJ5Vaug2kIliKT_" 
+					src="https://www.youtube.com/embed/-GS_tnCkLvw?si=13rBcznlJEX5tSOk" 
 					title="Starving"
 					frameborder="0"
 					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -24,7 +24,7 @@
 		<div class="video">
 			<div class="video-container">
 				<iframe
-				src="https://www.youtube.com/embed/zGnqcnRR2lg?si=kOoFD1M_8y0v2pp0" 
+				src="https://www.youtube.com/embed/TXs_ybw6M4c?si=k6AaBEypLijEXmp6" 
 					title="Back Burner"
 					frameborder="0"
 					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -38,7 +38,7 @@
 		<div class="video">
 			<div class="video-container">
 				<iframe
-				src="https://www.youtube.com/embed/JEHOSsEFgiE?si=_T8VjC_HP9oHnWTR" 
+				src="https://www.youtube.com/embed/9XINBKhO4Qw?si=TFaPUM1NwcE2FuiH" 
 					title="It's been a minute"
 					frameborder="0"
 					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
