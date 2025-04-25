@@ -1,6 +1,24 @@
 <script>
+	import { onMount } from 'svelte';
 	import Header from './Header.svelte';
 	import '../app.css';
+
+	onMount(async () => {
+		try {
+			await fetch('/.netlify/functions-internal/track-visit', {
+				method: 'POST',
+				headers: {
+					'Content-Type': 'application/json'
+				},
+				body: JSON.stringify({
+					userAgent: navigator.userAgent,
+					page: window.location.pathname
+				})
+			});
+		} catch (err) {
+			console.error('Visitor tracking failed:', err);
+		}
+	});
 </script>
 
 <svelte:head>
@@ -22,7 +40,7 @@
 				<a href="https://www.youtube.com/@Logansongsofficial" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
 				<a href="https://www.tiktok.com/@logansongsofficial" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
 				<a href="https://www.instagram.com/logansongsofficial/" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-			  </div>
+			</div>
 			<p>&copy; {new Date().getFullYear()} LOGAN. All rights reserved.</p>
 		</div>
 	</footer>
