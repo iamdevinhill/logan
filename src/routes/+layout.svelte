@@ -88,7 +88,7 @@
 				<a href="https://www.instagram.com/logansongsofficial/" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
 			  </div>
 			  <p class="site-footer-note">
-				&copy; {new Date().getFullYear()} Nicky Saturn. All rights reserved.
+				&copy; {new Date().getFullYear()} LOGAN. All rights reserved.
 				<br>
 				<span class="disclaimer">
 					By accessing this website, you agree to have your IP address and general location logged for analytics purposes.
@@ -143,7 +143,7 @@
 }
 
 .site-footer-note .disclaimer {
-	font-size: 0.8rem;
+	font-size: 0.5rem;
 	opacity: 0.6;
 }
 </style>
